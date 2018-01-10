@@ -128,7 +128,7 @@ const RendererDemo = React.createClass({
                     onClick={this.checkAnswer}
                 >
                     {answer.empty
-                        ? "Check Answer"
+                        ? "Check Answerjshsehjwh"
                         : answer.correct ? "Correct!" : "Incorrect, try again."}
                 </SimpleButton>
                 <img
