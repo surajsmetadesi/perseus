@@ -120,8 +120,7 @@
           };
   
           const answer = this.state.answer;
-          const a  = Math.floor(Math.random() * (4 - 0 + 1)) + 0;  
-          const b='data'+a;
+
 
 
           const rendererComponent = (
