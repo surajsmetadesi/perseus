@@ -180,7 +180,7 @@ clean:
 	-rm -rf build/*
 
 lint:
-	ka-lint
+	#ka-lint
 
 ifeq ("$(MATCH_TESTS)","")
 FIND_TESTS_1 := find -E src -type f -regex '.*/__tests__/.*\.jsx?'
